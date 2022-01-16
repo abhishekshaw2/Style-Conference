@@ -1,0 +1,127 @@
+*{
+	margin:0px;
+	padding:0px;
+	font-family:arial; 
+}
+.uni-padding{
+	padding:0 25%;
+}
+
+/* header*/
+#header{
+	background:#1F51FF;
+	overflow:auto;
+}
+#logo a{
+	text-decoration:none;
+	color:grey;
+}
+#logo{
+	font-size:20px;
+	width:50%;
+	float:left;
+	padding:25px 0px 50px 30px;
+}
+#nav-bar{
+	float:right;
+}
+#nav-bar p{
+	color:	#B6D0E2;
+	padding:50px 0px 0px 130px;
+}
+#nav-bar ul{
+	overflow:auto;
+	list-style-type:none;
+}
+#nav-bar li{
+	float:left;
+}
+#nav-bar li a{
+	display:block;
+	text-decoration:none;
+	color:white;
+	padding: 20px 15px ;
+	font-size:13px;
+}
+#nav-bar li a:hover{
+	color:grey;
+}
+
+/* banner*/
+#banner{
+	text-align:center;
+	padding:2% 0%;
+	background-color:#DFFF00;
+	height:150px;
+}
+#banner h2{
+	font-size:35px;
+	font-weight:100;
+	padding-bottom:1%;
+	color:#4F7942;
+}
+#banner p{
+	line-height:30px;
+	font-size:20px;
+	color:grey;
+}
+
+/*about speakers*/
+#Aaron-Irizarry, #Adam-Connor, #AJ-Self, #Arman-Ghosh, #Bermon-Painter, #Shay-Howe {
+	overflow:auto;
+}
+.spkrs-img{
+	width:30%;
+	float:left;
+	text-align:center;
+}
+.spkrs-img a{
+	text-align:center;
+	color:#4F7942;
+	text-decoration:none;
+}
+.spkrs-details{
+	width:70%;
+	float:right;
+}
+.spkrs-details h2{
+	font-size:25px;
+	font-weight:100;
+	color:#4F7942;
+}
+.spkrs-details h4{
+	font-size:15px;
+	font-weight:100;
+	color:lightgrey;
+	padding:3% 0%;
+}
+.spkrs-details p{
+	color:grey;
+	line-height:20px;
+	word-spacing:5px;
+}
+
+/*footer*/
+#footer{
+	background-color:#1F51FF;
+	height:100px;
+}
+#imp-link ul{
+	list-style-type:none;
+	overflow:auto;
+}
+#imp-link li{
+	float:right;
+}
+#imp-link li a{
+	display:block;
+	text-decoration:none;
+	color:grey;
+	padding:20px 10px 10px 10px;	
+}
+#imp-link p{
+	position:relative;
+	top:40px;
+	left:100px;
+	color:lightgrey;
+}
